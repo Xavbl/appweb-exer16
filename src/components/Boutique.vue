@@ -5,7 +5,6 @@ import AjoutProduit from './AjoutProduit.vue';
 import { computed, ref, watch } from 'vue';
 import { vetements } from '../ts/produits'
 import ModificationProduit from './ModificationProduit.vue';
-import RechercheProduit from './RechercheProduit.vue'
 
 // Parent
 

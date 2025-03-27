@@ -2,7 +2,6 @@
 import { ref } from 'vue';
 import type { Vetement } from '../ts/Vetement'
 import { vetements } from '../ts/produits'
-import { Boutique } from './Boutique.vue'
 
 const vetementRecherche = ref('');
 
