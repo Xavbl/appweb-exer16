@@ -28,6 +28,5 @@ function defineConfig(arg0: {
     nav: { text: string; link: string; }[]; sidebar: { text: string; items: { text: string; link: string; }[]; }[];
   };
 }) {
-  throw new Error("Function not implemented.");
 }
 
