@@ -22,11 +22,13 @@ export default defineConfig({
     ],
   }
 })
+
 function defineConfig(arg0: {
   title: string; description: string; base: string; themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: { text: string; link: string; }[]; sidebar: { text: string; items: { text: string; link: string; }[]; }[];
   };
 }) {
+  return 1;
 }
 
