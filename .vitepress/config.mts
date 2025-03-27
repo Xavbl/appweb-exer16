@@ -1,4 +1,3 @@
-import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,3 +22,12 @@ export default defineConfig({
     ],
   }
 })
+function defineConfig(arg0: {
+  title: string; description: string; base: string; themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: { text: string; link: string; }[]; sidebar: { text: string; items: { text: string; link: string; }[]; }[];
+  };
+}) {
+  throw new Error("Function not implemented.");
+}
+
